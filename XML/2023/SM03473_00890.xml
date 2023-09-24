@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<?xml-stylesheet type="text/xsl" href="fatturapa_v1.2.xsl"?>
+<p:FatturaElettronica versione="FPR12"
+xmlns:ds="http://www.w3.org/2000/09/xmldsig#"
+xmlns:p="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<FatturaElettronicaHeader>
+<DatiTrasmissione>
+<IdTrasmittente>
+<IdPaese>SM</IdPaese>
+<IdCodice>03473</IdCodice>
+</IdTrasmittente><ProgressivoInvio>890</ProgressivoInvio><FormatoTrasmissione>FPR12</FormatoTrasmissione><CodiceDestinatario>0000000</CodiceDestinatario><PECDestinatario>enkrella@alice.it</PECDestinatario></DatiTrasmissione><CedentePrestatore>
+              <DatiAnagrafici>
+                 <IdFiscaleIVA>
+            <IdPaese>IT</IdPaese>
+          <IdCodice>01409720115</IdCodice>
+            </IdFiscaleIVA>
+			<CodiceFiscale>01409720115</CodiceFiscale>
+             <Anagrafica>
+              <Denominazione>ABLAB SRLS</Denominazione>
+            </Anagrafica>
+              <RegimeFiscale>RF01</RegimeFiscale>
+		       </DatiAnagrafici>
+              <Sede>
+			  <Indirizzo>
+			  Via Privata Massa Neri 13
+			  </Indirizzo>
+			  <CAP>19038</CAP>
+                <Comune>Sarzana</Comune>
+                <Provincia>SP</Provincia>
+                <Nazione>IT</Nazione>
+				</Sede>
+           <IscrizioneREA>
+              <Ufficio>SP</Ufficio>
+                <NumeroREA>126836</NumeroREA>
+                   <StatoLiquidazione>LN</StatoLiquidazione>
+                   </IscrizioneREA>
+            <Contatti>
+                <Telefono>0187626259</Telefono>
+				<Email>info@ablab.eu</Email>
+                  </Contatti>
+             </CedentePrestatore><CessionarioCommittente>
+            <DatiAnagrafici><IdFiscaleIVA>
+                    <IdPaese>IT</IdPaese>
+                      <IdCodice>01561670660</IdCodice>
+                </IdFiscaleIVA><Anagrafica><Denominazione>ambulatorio veterinario dott. enrico capparella</Denominazione></Anagrafica>
+			</DatiAnagrafici>
+			<Sede>
+			 <Indirizzo>VIA MARIO TRADARDI snc C/O AMBULATORIO VETERINARIO CAPPARELLA</Indirizzo>
+			 <CAP>67100</CAP>
+			 <Comune>L'AQUILA</Comune>
+			 <Provincia>AQ</Provincia>
+               <Nazione>IT</Nazione>
+                </Sede>
+            </CessionarioCommittente><TerzoIntermediarioOSoggettoEmittente>
+		 <DatiAnagrafici>
+                  <IdFiscaleIVA>
+				  <IdPaese>SM</IdPaese>
+				  <IdCodice>03473</IdCodice>
+				  </IdFiscaleIVA>
+				  <Anagrafica>
+				  <Denominazione>Passepartout S.p.A</Denominazione>
+				  </Anagrafica>
+				  </DatiAnagrafici>
+				  </TerzoIntermediarioOSoggettoEmittente>
+				  <SoggettoEmittente>TZ</SoggettoEmittente>
+
+				  </FatturaElettronicaHeader><FatturaElettronicaBody>
+		<DatiGenerali>
+            <DatiGeneraliDocumento>
+            <TipoDocumento>TD01</TipoDocumento>
+			<Divisa>EUR</Divisa>
+			<Data>2023-05-04</Data><Numero>890</Numero>  <ImportoTotaleDocumento>80.52</ImportoTotaleDocumento>
+			 <Causale>Pagamento: Rimessa diretta/Bonifico Bancario FINE MESE</Causale>
+
+                </DatiGeneraliDocumento>
+        </DatiGenerali><DatiBeniServizi> <DettaglioLinee>
+             <NumeroLinea>1</NumeroLinea>
+               <CodiceArticolo>
+                  <CodiceTipo>PROPRIETARIO</CodiceTipo>
+                    <CodiceValore>10</CodiceValore>
+				</CodiceArticolo>
+                <Descrizione>Istologico da 1 a 3 campioni</Descrizione>
+				<Quantita>2.000000</Quantita>
+                <UnitaMisura>NR</UnitaMisura>
+				<PrezzoUnitario>33.000000</PrezzoUnitario><PrezzoTotale>66.00</PrezzoTotale>
+                <AliquotaIVA>22.00</AliquotaIVA>
+               </DettaglioLinee>
+
+
+			<DatiRiepilogo>
+			            <AliquotaIVA>22.00</AliquotaIVA>
+                <ImponibileImporto>66.00</ImponibileImporto>
+                 <Imposta>14.52</Imposta>
+				 <EsigibilitaIVA>I</EsigibilitaIVA>
+				 </DatiRiepilogo>
+				 </DatiBeniServizi>
+				 <DatiPagamento>
+				    <CondizioniPagamento>TP02</CondizioniPagamento>
+					<DettaglioPagamento><ModalitaPagamento>MP05</ModalitaPagamento>
+					<DataRiferimentoTerminiPagamento>2023-05-04</DataRiferimentoTerminiPagamento>
+                    <GiorniTerminiPagamento>30</GiorniTerminiPagamento>
+                    <DataScadenzaPagamento>2023-05-31</DataScadenzaPagamento>
+                    <ImportoPagamento>80.52</ImportoPagamento>
+					   <IBAN>IT49T0623049841000043964722</IBAN>
+					</DettaglioPagamento>
+                 </DatiPagamento>
+				 </FatturaElettronicaBody>
+				 </p:FatturaElettronica>
